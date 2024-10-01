@@ -14,12 +14,13 @@ body{
 
 }
 .container{
-    background-color: rgb(235,117,117) !important;
+    transition: 0.8s;
+    background-color: rgb(235,117,117) ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white !important;
 display: flex;
 flex-wrap: wrap;
-background-color: aqua;
+
 height: 70%;
 justify-content: space-between;
 width: 65%;
@@ -145,3 +146,16 @@ height: 300px;
 
 
   }
+  @keyframes move {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(10deg); }
+    20% { transform: rotate(-10deg); }
+    30% { transform: rotate(10deg); }
+    40% { transform: rotate(-10deg); }
+    50% { transform: rotate(10deg); }
+    60% { transform: rotate(-10deg); }
+    70% { transform: rotate(10deg); }
+    80% { transform: rotate(-10deg); }
+    90% { transform: rotate(10deg); }
+    100% { transform: rotate(0deg); }
+}
