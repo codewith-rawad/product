@@ -1,0 +1,33 @@
+
+*{
+
+margin: 0;
+padding: 0;
+
+}
+body{
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+
+display: flex;
+flex-wrap: wrap;
+
+
+}
+.one{
+height: 40%;
+width: 50%;
+
+
+}
+.one:nth-child(1){
+height: 100%;
+width: 100%;
+ background-image: url('https://assets.codepen.io/1462889/ch1.png');
+}
