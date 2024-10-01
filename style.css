@@ -14,20 +14,45 @@ body{
 
 }
 .container{
-
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white !important;
 display: flex;
 flex-wrap: wrap;
-
-
+background-color: aqua;
+height: 70%;
+justify-content: space-between;
 }
 .one{
-height: 40%;
-width: 50%;
+width: 35%;
+height: 100%;
 
 
 }
-.one:nth-child(1){
+.two{
+    background-image: url('https://assets.codepen.io/1462889/mat1.jpg');
+    color :white;
+background-color: blueviolet;
+width: 65%;
 height: 100%;
-width: 100%;
- background-image: url('https://assets.codepen.io/1462889/ch1.png');
+text-align: center;
+
+
+}
+.two h4{
+margin-top: 10px;
+}
+.two h1{
+    margin-top: 15px;
+
+}
+.two .p span{
+
+margin-left: 15px;
+
+}
+a{
+color: white;
+
+
+
 }
