@@ -14,6 +14,7 @@ body{
 
 }
 .container{
+    background-color: rgb(235,117,117) !important;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white !important;
 display: flex;
@@ -21,17 +22,21 @@ flex-wrap: wrap;
 background-color: aqua;
 height: 70%;
 justify-content: space-between;
+width: 65%;
 }
 .one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 width: 35%;
 height: 100%;
 
 
 }
 .two{
-   background-color: lightcoral;
+   
     color :white;
-background-color: blueviolet;
+
 width: 65%;
 height: 100%;
 text-align: center;
@@ -131,4 +136,12 @@ justify-content: center;
     width: 30px;
     margin: 0 5px;
     background-image: url('https://assets.codepen.io/1462889/mat6.jpg');
+  }
+  img{
+
+   
+width: 300px;
+height: 300px;
+
+
   }
