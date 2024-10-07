@@ -1,4 +1,8 @@
 var pi = document.getElementById('pi');
+var un=document.getElementById('un');
+var du=document.getElementById('du');
+var text =document.getElementById('text')
+var textt=document.getElementById('textt')
 var container = document.querySelector(".container");
 var items = [
     document.querySelector(".item1"),
@@ -8,6 +12,32 @@ var items = [
     document.querySelector(".item5"),
     document.querySelector(".item6")
 ];
+
+un.addEventListener("click",function(){
+    un.style.opacity='1'
+    du.style.opacity='0.4'
+text.innerHTML="The chair construction is made of ash tree. Upholstery and wood color at customer's request."
+text.style.animation='an 1s  forwards'
+setTimeout(() => {
+    text.style.animation=""
+    
+},1000);
+
+})
+
+du.addEventListener("click",function(){
+     un.style.opacity='0.4'
+    du.style.opacity='1'
+  text.innerHTML="Discover our stunning collection of handcrafted wooden chairs that blend elegance and comfort"
+  text.style.animation='an 1s  forwards'
+  setTimeout(() => {
+    text.style.animation=""
+    
+},1000);
+
+ 
+ 
+})
 
 var back = [
     "rgb(235,117,117)",
